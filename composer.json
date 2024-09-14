@@ -1,0 +1,37 @@
+{
+    "name": "dshk/webhook",
+    "description": "A Magento 2 module for handling webhooks",
+    "type": "magento2-module",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "magento/framework": "~102.0.0",
+        "magento/module-store": "*",
+        "magento/module-backend": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dshk\\Webhook\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dshk\\Webhook\\Test\\": "dev/tests/unit/"
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "src/"
+            ]
+        ]
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
