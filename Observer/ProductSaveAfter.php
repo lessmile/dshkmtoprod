@@ -99,8 +99,8 @@ class ProductSaveAfter implements ObserverInterface
             $shopDomain = $this->storeManager->getStore()->getBaseUrl(\Magento\Framework\UrlInterface::URL_TYPE_WEB);
 
             // Webhook URL
-            //$webhookUrl = 'https://open-seller-api-gw.dsers.com/magento/magento-webhook-consumer/webhook';
-            $webhookUrl = 'https://open-seller-api-gw-test.dsers.com/magento/magento-webhook-consumer/webhook';
+            $webhookUrl = 'https://open-seller-api-gw.dsers.com/magento/magento-webhook-consumer/webhook';
+            //$webhookUrl = 'https://open-seller-api-gw-test.dsers.com/magento/magento-webhook-consumer/webhook';
 
             // 使用 PHP cURL 异步发送请求
             $ch = curl_init($webhookUrl);
