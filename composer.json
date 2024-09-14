@@ -2,7 +2,7 @@
     "name": "dshk/webhook",
     "description": "Magento 2 Webhook Module",
     "type": "magento2-module",
-    "version": "1.0.5",
+    "version": "v1.0.6",
     "require": {
         "php": ">=7.4",
         "magento/framework": ">=102.0"
