@@ -49,8 +49,8 @@ class OrderWebhookObserver implements ObserverInterface
 
         try {
             // 设置Webhook URL
-            //$webhookUrl = 'https://open-seller-api-gw.dsers.com/magento/magento-webhook-consumer/webhook';
-            $webhookUrl = 'https://open-seller-api-gw-test.dsers.com/magento/magento-webhook-consumer/webhook';
+            $webhookUrl = 'https://open-seller-api-gw.dsers.com/magento/magento-webhook-consumer/webhook';
+            //$webhookUrl = 'https://open-seller-api-gw-test.dsers.com/magento/magento-webhook-consumer/webhook';
 
             // 设置请求体数据
             $data = json_encode([
